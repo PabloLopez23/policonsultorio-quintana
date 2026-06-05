@@ -1,4 +1,4 @@
-import { Clock, Mail, MapPin, MessageCircle, Phone } from "lucide-react";
+import { Clock, Mail, MapPin, Phone } from "lucide-react";
 import {
   CLINIC_ADDRESS,
   CLINIC_HOURS,
@@ -31,6 +31,10 @@ const contactItems = [
     href: `mailto:${CONTACT_EMAIL}`,
   },
 ];
+
+const mapsQuery = encodeURIComponent(CLINIC_ADDRESS);
+const mapsEmbedUrl = `https://www.google.com/maps?q=${mapsQuery}&output=embed`;
+const mapsDirectionsUrl = `https://www.google.com/maps/dir/?api=1&destination=${mapsQuery}`;
 
 export function Contact() {
   return (
@@ -86,22 +90,30 @@ export function Contact() {
         </div>
 
         <div className="min-h-[360px] overflow-hidden rounded-lg border border-white/20 bg-dental-deep shadow-soft">
-          <div className="flex h-full min-h-[360px] flex-col items-center justify-center bg-[linear-gradient(135deg,#45e2d7_0%,#00aaa0_45%,#006f83_100%)] p-8 text-center">
-            <MapPin className="h-12 w-12 text-white" />
-            <h3 className="mt-5 text-xl font-black text-white">Mapa de ubicación</h3>
-            <p className="mt-3 max-w-sm text-sm leading-6 text-dental-mint">
-              Sección preparada para insertar el mapa de Google Maps cuando tengas la
-              dirección exacta de la clínica.
-            </p>
-            <a
-              className="mt-6 inline-flex items-center gap-2 rounded-md bg-white px-5 py-3 text-sm font-bold text-dental-deep shadow-sm transition hover:bg-dental-mint"
-              href={WHATSAPP_LINK}
-              rel="noreferrer"
-              target="_blank"
-            >
-              <MessageCircle className="h-4 w-4" />
-              Consultar ubicación
-            </a>
+          <div className="relative h-full min-h-[360px]">
+            <iframe
+              aria-label={`Mapa de ubicación de ${CLINIC_ADDRESS}`}
+              className="absolute inset-0 h-full w-full border-0"
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+              src={mapsEmbedUrl}
+              title="Mapa de ubicación de Policonsultorio Quintana"
+            />
+            <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-dental-deep/95 via-dental-deep/70 to-transparent p-5 text-center">
+              <h3 className="text-xl font-black text-white">Mapa de ubicación</h3>
+              <p className="mx-auto mt-2 max-w-sm text-sm leading-6 text-dental-mint">
+                Fray José de la Quintana 1272, W3400BGP Corrientes
+              </p>
+              <a
+                className="mt-4 inline-flex items-center gap-2 rounded-md bg-white px-5 py-3 text-sm font-bold text-dental-deep shadow-sm transition hover:bg-dental-mint"
+                href={mapsDirectionsUrl}
+                rel="noreferrer"
+                target="_blank"
+              >
+                <MapPin className="h-4 w-4" />
+                Cómo llegar
+              </a>
+            </div>
           </div>
         </div>
       </div>
