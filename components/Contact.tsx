@@ -1,6 +1,7 @@
 import { Clock, Mail, MapPin, MessageCircle, Phone } from "lucide-react";
 import {
   CLINIC_ADDRESS,
+  CLINIC_HOURS,
   CONTACT_EMAIL,
   CONTACT_PHONE,
   WHATSAPP_LINK,
@@ -20,7 +21,7 @@ const contactItems = [
   },
   {
     label: "Horarios",
-    value: "Lunes a Viernes de 9:00 a 18:00",
+    value: CLINIC_HOURS,
     icon: Clock,
   },
   {

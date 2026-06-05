@@ -17,19 +17,10 @@ type Service = {
 
 const services: Service[] = [
   {
-    title: "Odontología general",
-    description: "Controles, diagnóstico y tratamientos para mantener tu salud bucal al día.",
-    icon: SmilePlus,
-  },
-  {
-    title: "Limpieza dental",
-    description: "Profilaxis profesional para prevenir manchas, sarro y enfermedades de encías.",
-    icon: Sparkles,
-  },
-  {
-    title: "Blanqueamiento dental",
-    description: "Tratamientos estéticos seguros para lograr una sonrisa más luminosa.",
-    icon: Smile,
+    title: "ATM / Articulación temporomandibular",
+    description:
+      "Evaluación y tratamiento de molestias mandibulares, dolor al masticar o tensión en la mandíbula.",
+    icon: HeartPulse,
   },
   {
     title: "Ortodoncia",
@@ -37,14 +28,49 @@ const services: Service[] = [
     icon: BadgeCheck,
   },
   {
-    title: "Implantes dentales",
-    description: "Soluciones modernas para recuperar piezas dentales y volver a sonreír.",
+    title: "Ortopedia maxilar",
+    description:
+      "Tratamientos para guiar el crecimiento y corregir alteraciones óseas y funcionales.",
+    icon: BadgeCheck,
+  },
+  {
+    title: "Odontología general",
+    description: "Controles, diagnóstico y tratamientos para mantener tu salud bucal al día.",
+    icon: SmilePlus,
+  },
+  {
+    title: "Implantes osteointegrados",
+    description:
+      "Soluciones modernas para reemplazar piezas dentales perdidas con estabilidad y estética.",
     icon: ShieldCheck,
   },
   {
-    title: "Urgencias odontológicas",
-    description: "Atención rápida ante dolor, golpes, infecciones o molestias repentinas.",
-    icon: HeartPulse,
+    title: "Tratamiento de encías",
+    description:
+      "Atención para prevenir y tratar inflamación, sangrado o problemas periodontales.",
+    icon: ShieldCheck,
+  },
+  {
+    title: "Prótesis dentales",
+    description: "Alternativas funcionales y estéticas para recuperar confianza al hablar y comer.",
+    icon: Wrench,
+  },
+  {
+    title: "Blanqueamiento dental",
+    description: "Tratamientos estéticos seguros para lograr una sonrisa más luminosa.",
+    icon: Smile,
+  },
+  {
+    title: "Limpieza dental profunda",
+    description:
+      "Limpieza profesional más completa para remover sarro, placa y cuidar las encías.",
+    icon: Sparkles,
+  },
+  {
+    title: "Tratamiento de conducto",
+    description:
+      "Procedimiento para salvar piezas dentales afectadas y eliminar dolor o infección.",
+    icon: SmilePlus,
   },
   {
     title: "Tratamiento de caries",
@@ -52,9 +78,20 @@ const services: Service[] = [
     icon: SmilePlus,
   },
   {
-    title: "Prótesis dentales",
-    description: "Alternativas funcionales y estéticas para recuperar confianza al hablar y comer.",
-    icon: Wrench,
+    title: "Carillas estéticas",
+    description: "Tratamientos estéticos para mejorar forma, color y apariencia de la sonrisa.",
+    icon: Smile,
+  },
+  {
+    title: "Limpieza y Blanqueamiento Dental",
+    description:
+      "Combinación de limpieza profesional y tratamiento estético para una sonrisa más sana y luminosa.",
+    icon: Sparkles,
+  },
+  {
+    title: "Urgencias odontológicas",
+    description: "Atención rápida ante dolor, golpes, infecciones o molestias repentinas.",
+    icon: HeartPulse,
   },
 ];
 
