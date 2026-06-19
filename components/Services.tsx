@@ -34,11 +34,6 @@ const services: Service[] = [
     icon: BadgeCheck,
   },
   {
-    title: "Odontología general",
-    description: "Controles, diagnóstico y tratamientos para mantener tu salud bucal al día.",
-    icon: SmilePlus,
-  },
-  {
     title: "Implantes osteointegrados",
     description:
       "Soluciones modernas para reemplazar piezas dentales perdidas con estabilidad y estética.",
@@ -81,12 +76,6 @@ const services: Service[] = [
     title: "Carillas estéticas",
     description: "Tratamientos estéticos para mejorar forma, color y apariencia de la sonrisa.",
     icon: Smile,
-  },
-  {
-    title: "Limpieza y Blanqueamiento Dental",
-    description:
-      "Combinación de limpieza profesional y tratamiento estético para una sonrisa más sana y luminosa.",
-    icon: Sparkles,
   },
   {
     title: "Urgencias odontológicas",

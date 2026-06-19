@@ -1,8 +1,7 @@
-import { Clock, Mail, MapPin, Phone } from "lucide-react";
+import { Clock, MapPin, Phone } from "lucide-react";
 import {
   CLINIC_ADDRESS,
   CLINIC_HOURS,
-  CONTACT_EMAIL,
   CONTACT_PHONE,
   WHATSAPP_LINK,
 } from "@/config/contact";
@@ -23,12 +22,6 @@ const contactItems = [
     label: "Horarios",
     value: CLINIC_HOURS,
     icon: Clock,
-  },
-  {
-    label: "Email",
-    value: CONTACT_EMAIL,
-    icon: Mail,
-    href: `mailto:${CONTACT_EMAIL}`,
   },
 ];
 

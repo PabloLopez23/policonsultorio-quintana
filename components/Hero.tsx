@@ -10,9 +10,8 @@ export function Hero() {
         className="absolute inset-0 -z-20 h-full w-full object-cover object-[62%_center]"
         fill
         priority
-        quality={100}
         sizes="100vw"
-        src="/hero-dental-clinic.png"
+        src="/hero-dental-clinic.webp"
         unoptimized
       />
       <div className="absolute inset-0 -z-10 bg-[linear-gradient(180deg,rgba(0,77,99,0.96)_0%,rgba(0,111,131,0.86)_48%,rgba(0,170,160,0.42)_100%)] sm:bg-[linear-gradient(90deg,rgba(0,77,99,0.96)_0%,rgba(0,111,131,0.88)_30%,rgba(0,170,160,0.48)_46%,rgba(0,170,160,0.12)_62%,rgba(0,170,160,0)_78%)]" />
