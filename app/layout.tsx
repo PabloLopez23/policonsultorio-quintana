@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Policonsultorio Quintana | Clínica Dental",
+  title: "CLINICA PREDEN | Clínica Dental",
   description:
     "Atención odontológica integral, turnos y servicios dentales profesionales.",
 };

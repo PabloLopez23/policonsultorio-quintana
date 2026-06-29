@@ -22,9 +22,9 @@ export function About() {
             Cercanía, tecnología y criterio profesional
           </h2>
           <p className="mt-5 text-lg leading-8 text-dental-deep/80">
-            En Policonsultorio Quintana brindamos atención odontológica personalizada,
-            combinando experiencia profesional, tecnología y un trato humano para cuidar
-            la salud bucal de cada paciente.
+            En CLINICA PREDEN brindamos atención odontológica personalizada, combinando
+            experiencia profesional, tecnología y un trato humano para cuidar la salud
+            bucal de cada paciente.
           </p>
         </div>
 

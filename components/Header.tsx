@@ -1,8 +1,9 @@
 "use client";
 
 import { CalendarCheck, Menu, X } from "lucide-react";
+import Image from "next/image";
 import { useState } from "react";
-import { WHATSAPP_LINK } from "@/config/contact";
+import { WHATSAPP_LINK } from "../config/contact";
 
 const navItems = [
   { label: "Inicio", href: "#inicio" },
@@ -19,11 +20,17 @@ export function Header() {
     <header className="sticky top-0 z-50 border-b border-white/10 bg-dental-deep/95 text-white backdrop-blur">
       <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
         <a href="#inicio" className="flex items-center gap-3" aria-label="Inicio">
-          <span className="flex h-10 w-10 items-center justify-center rounded-md bg-dental-aqua text-lg font-black text-dental-deep">
-            PQ
+          <span className="flex h-11 w-11 items-center justify-center overflow-hidden rounded-md bg-white p-1">
+            <Image
+              alt="CLINICA PREDEN"
+              className="h-full w-full object-contain"
+              height={44}
+              src="/clinica-preden-logo.webp"
+              width={44}
+            />
           </span>
           <span className="text-base font-bold tracking-tight text-white sm:text-lg">
-            Policonsultorio Quintana
+            CLINICA PREDEN
           </span>
         </a>
 

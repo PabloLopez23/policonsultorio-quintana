@@ -1,6 +1,6 @@
 import { ArrowRight, CalendarCheck } from "lucide-react";
 import Image from "next/image";
-import { WHATSAPP_LINK } from "@/config/contact";
+import { WHATSAPP_LINK } from "../config/contact";
 
 export function Hero() {
   return (
@@ -26,8 +26,7 @@ export function Hero() {
             Tu sonrisa en manos profesionales
           </h1>
           <p className="mt-6 max-w-xl text-lg leading-8 text-dental-mint sm:text-xl">
-            Atención odontológica integral para vos y tu familia en Policonsultorio
-            Quintana.
+            Atención odontológica integral para vos y tu familia en CLINICA PREDEN.
           </p>
           <div className="mt-8 flex flex-col gap-3 sm:flex-row">
             <a

@@ -1,5 +1,5 @@
 import { CalendarCheck } from "lucide-react";
-import { WHATSAPP_LINK } from "@/config/contact";
+import { WHATSAPP_LINK } from "../config/contact";
 
 export function CTA() {
   return (
@@ -16,8 +16,7 @@ export function CTA() {
             ¿Querés mejorar tu sonrisa?
           </h2>
           <p className="mt-4 text-lg leading-8 text-dental-mint">
-            Solicitá tu turno hoy y recibí atención profesional en Policonsultorio
-            Quintana.
+            Solicitá tu turno hoy y recibí atención profesional en CLINICA PREDEN.
           </p>
         </div>
 

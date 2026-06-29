@@ -4,7 +4,7 @@ import {
   CLINIC_HOURS,
   CONTACT_PHONE,
   WHATSAPP_LINK,
-} from "@/config/contact";
+} from "../config/contact";
 
 const contactItems = [
   {
@@ -90,7 +90,7 @@ export function Contact() {
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
               src={mapsEmbedUrl}
-              title="Mapa de ubicación de Policonsultorio Quintana"
+              title="Mapa de ubicación de CLINICA PREDEN"
             />
             <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-dental-deep/95 via-dental-deep/70 to-transparent p-5 text-center">
               <h3 className="text-xl font-black text-white">Mapa de ubicación</h3>

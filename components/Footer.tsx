@@ -11,9 +11,9 @@ export function Footer() {
     <footer className="border-t border-white/10 bg-dental-deep text-white">
       <div className="mx-auto flex max-w-7xl flex-col gap-6 px-4 py-8 sm:px-6 lg:flex-row lg:items-center lg:justify-between lg:px-8">
         <div>
-          <p className="text-lg font-black text-white">Policonsultorio Quintana</p>
+          <p className="text-lg font-black text-white">CLINICA PREDEN</p>
           <p className="mt-2 text-sm text-dental-mint/75">
-            © 2026 Policonsultorio Quintana. Todos los derechos reservados.
+            © 2026 CLINICA PREDEN. Todos los derechos reservados.
           </p>
         </div>
 
